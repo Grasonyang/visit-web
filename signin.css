@@ -1,0 +1,81 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    background-image: url('img/re.jpg');
+    background-size: 100% 100%;
+}
+
+#title{
+  width:25vw;
+  height: 96vh;
+  margin:0px auto;
+}
+
+.blo{
+  position: relative;
+  width:25vw;
+  height: 4vh;
+  margin:0px auto;
+}
+
+#id{
+  position: absolute;
+  left:50%;
+  transform: translate(-50%,2%);
+  height: 20vh;
+  width: 12vh;
+}
+
+.for{
+  position: absolute;
+  left:50%;
+  transform: translate(-50%,2%);
+  width:auto;
+}
+
+.inser{
+  width:20vw;
+  height:2.5vh;
+  border-radius: 7px;
+}
+
+.spc{
+  color: rgb(0, 84, 220);
+}
+
+.send{
+  width:7vw;
+  height:4vh;
+  background-color: rgb(26, 160, 16);
+  border-radius: 7px;
+  border:1px solid rgb(0, 0, 0);
+  font-weight: bold;
+  color: rgb(215, 222, 228);
+}
+
+.send:hover{
+  background-color: rgb(16, 194, 3);
+}
+
+.bro{
+  background-color: rgba(27, 27, 27, 0.546);
+  padding:15px 25px;
+  height:25vh;
+  border-radius: 5px;
+  border: 1px solid rgba(97, 97, 97, 0.629);
+}
+
+.ano{
+  position: absolute;
+  left:50%;
+  transform: translate(-50%,2%);
+  background-color: rgba(5, 5, 5, 0.546);
+  padding:15px 25px;
+  border-radius: 5px;
+  border: 1px solid rgba(160, 160, 160, 0.629);
+}
+
+.try{
+  color: rgb(255, 245, 230);
+}
